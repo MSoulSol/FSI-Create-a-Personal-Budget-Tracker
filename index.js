@@ -15,7 +15,7 @@ console.log(numberAnswer)
 monthlyExpenses = monthlyExpenses + numberAnswer
 }
 
-for(i=0; i<annualExpenses.length; i++){let StringAnswer = window.prompt(annualExpenseQuestions[i])
+for(i=0; i<annualExpenseQuestion.length; i++){let StringAnswer = window.prompt(annualExpenseQuestions[i])
     let numberAnswer = parseFloat(StringAnswer)
     console.log(numberAnswer)
     annualExpenses = annualExpenses + numberAnswer
